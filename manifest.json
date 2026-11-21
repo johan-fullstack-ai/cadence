@@ -1,0 +1,15 @@
+{
+  "name": "Cadence",
+  "short_name": "Cadence",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='112' fill='%230f172a'/%3E%3Ccircle cx='256' cy='256' r='128' fill='none' stroke='%23c5d9bb' stroke-width='20'/%3E%3Cpath d='M128 256a128 128 0 0 0 256 0' fill='%23c5d9bb'/%3E%3C/svg%3E",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
