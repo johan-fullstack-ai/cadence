@@ -312,7 +312,7 @@
         </button>
         <form class="callCard" id="callForm">
           <div class="callTop">
-            <div><span class="optionName">Samtal eller möte</span><span class="optionDetail">Tillägg utifrån mötets längd</span></div>
+            <div><span class="optionName">Lång avstämning</span><span class="optionDetail">Tillägg utifrån mötets längd</span></div>
             <span class="arrow" aria-hidden="true">↗</span>
           </div>
           <div class="callControls">
@@ -608,7 +608,7 @@
         showNotice("Ange ett giltigt antal minuter som är minst 0.");
         return;
       }
-      logContact("Samtal eller möte", Math.round((minutes / 180) * 7), minutes);
+      logContact("Lång avstämning", Math.round((minutes / 180) * 7), minutes);
     });
     elements.series.addEventListener("change", () => {
       if (state && !saveState({ ...state, series: elements.series.value })) elements.series.value = state.series;
